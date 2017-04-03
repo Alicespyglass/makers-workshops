@@ -7,7 +7,7 @@ describe RandomHappyEmoji do
 
   describe '::new' do
     it 'returns a random emoji as a string', focus: true do
-      srand(67809)
+      srand(67803)
       expect(RandomHappyEmoji.new.to_s).to eq ":)"
     end
   end
